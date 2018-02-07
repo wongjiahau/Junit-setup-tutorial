@@ -1,6 +1,6 @@
 #!/bin/bash
 javac  -cp /home/lazily_installed_junit/lib/junit-4.12.jar: $1
-if [ -z ${var+x} ]; then
+if [ -z ${1+x} ]; then
     echo "Please specify file name. For example : Sample.java"
     exit 1
 fi
