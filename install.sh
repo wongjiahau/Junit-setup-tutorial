@@ -13,7 +13,7 @@ rm -rf Junit-setup-tutorial
 
 cd /bin
 rm junitrun
-ln -s /home/lazily_installed_junit/jrun junitrun
+ln -s /home/lazily_installed_junit/junitrun junitrun
 
 if [ $? -eq 0 ]; then
     echo "Installation completed."
