@@ -13,12 +13,12 @@ cd ..
 rm -rf Junit-setup-tutorial
 
 cd /bin
-ln -s /home/lazily_installed_junit/jrun jrun
+rm junitrun
+ln -s /home/lazily_installed_junit/jrun junitrun
 
 if [ $? -eq 0 ]; then
     echo "Installation completed."
-    echo "Now you can use 'jcom' to compile Junit test class."
-    echo "Now you can use 'jrun' to run Junit unit test class."
+    echo "Now you can use 'junitrun' to compile and run Junit test class."
 else
     echo "Installation failed. Please try again."
     echo "Email me at hou32hou@gmail.com"

@@ -20,7 +20,7 @@ curl https://raw.githubusercontent.com/wongjiahau/Junit-setup-tutorial/master/in
 For Windows user, run the code above without `sudo` in Git Bash.
 For Mac OS user, you probably can run the same code as above.
 
-After the installation, you can use `jrun` command to run JunitTestRunner on a test class.  
+After the installation, you can use `junitrun` command to run JunitTestRunner on a test class.  
 
 Let say you are in `~/junit_demo` :
 Create a file name `TestJunit.java`, and copy and paste the code below into it.
@@ -43,9 +43,9 @@ public class TestJunit {
 ```
 *Make sure you are inside `~/junit_demo` before you run the following commands.*  
 
-Then, compile and run the file using `jrun` :
+Then, compile and run the file using `junitrun` :
 ```
-jrun TestJunit.java
+junitrun TestJunit.java
 ```
   
 
