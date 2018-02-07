@@ -43,16 +43,11 @@ public class TestJunit {
 ```
 *Make sure you are inside `~/junit_demo` before you run the following commands.*  
 
-Then, compile the file using `jcom` :
+Then, compile and run the file using `jrun` :
 ```
-jcom TestJunit.java
+jrun TestJunit.java
 ```
   
-
-Then, run the test class using `jrun` :
-```
-jrun TestJunit
-```
 
 ## Problems?
 If you face any problems please email me at `hou32hou@gmail.com`.

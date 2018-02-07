@@ -14,7 +14,6 @@ rm -rf Junit-setup-tutorial
 
 cd /bin
 ln -s /home/lazily_installed_junit/jrun jrun
-ln -s /home/lazily_installed_junit/jcom jcom
 
 if [ $? -eq 0 ]; then
     echo "Installation completed."
