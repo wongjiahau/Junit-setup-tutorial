@@ -12,9 +12,12 @@ But, after that you may face some problems listed below.
 1. Forgot to download [hamcrest-core](http://www.java2s.com/Code/Jar/h/Downloadhamcrestcore13jar.htm)
 2. You use relative path name such as `./` or `~` for `-classpath`.
 
-## For lazy people
-For Ubuntu user, run the following code.
+## *For lazy people, just the run following code*
+For Linux Ubuntu user, copy the following code and run it in your terminal.
+```sh
+sudo curl https://raw.githubusercontent.com/wongjiahau/Junit-setup-tutorial/master/install.sh | bash 
 ```
-sudo curl xxx | bash 
-```
-For Windows user, if you have Git Bash, run the code above without `sudo`.
+For Windows user, run the code above without `sudo` in Git Bash.
+For Mac OS user, you probably can run the same code as above.
+
+After the installation, you can use `jrun` command to run JunitTestRunner on a test class.  
