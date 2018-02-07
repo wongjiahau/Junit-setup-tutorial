@@ -7,8 +7,7 @@ git clone https://github.com/wongjiahau/Junit-setup-tutorial.git
 
 cd Junit-setup-tutorial
 mv ./lib ../
-mv jrun ../
-mv jcom ../
+mv junitrun ../
 cd ..
 rm -rf Junit-setup-tutorial
 

@@ -47,7 +47,12 @@ Then, compile and run the file using `junitrun` :
 ```
 junitrun TestJunit.java
 ```
-  
+
+## How to uninstall `junitrun`?
+```
+sudo rm /bin/junitrun
+sudo rm -rf ~/lazily_installed_junit
+```  
 
 ## Problems?
 If you face any problems please email me at `hou32hou@gmail.com`.
